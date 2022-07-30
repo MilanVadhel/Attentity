@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_5_rounded_color_primary_1_bordered_box" android:state_focused="true" />
+    <item android:drawable="@drawable/shape_5_rounded_color_grey_light_1_bordered_box" android:state_focused="false" />
+</selector>

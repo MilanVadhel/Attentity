@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_5"
+    app:cardCornerRadius="@dimen/dp_8"
+    app:cardElevation="@dimen/dp_5">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dp_8">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAttendeeName"
+            style="@style/Poppins14Bold"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:drawableStart="@drawable/ic_user_unfocused"
+            android:drawablePadding="@dimen/dp_8"
+            android:textColor="@color/title_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Milan Vadhel" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAttendeeMobileNumber"
+            style="@style/Poppins14Bold"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/dp_2"
+            android:drawableStart="@drawable/ic_call_unfocused"
+            android:drawablePadding="@dimen/dp_8"
+            android:textColor="@color/title_text_color"
+            app:layout_constraintEnd_toEndOf="@id/tvAttendeeName"
+            app:layout_constraintStart_toStartOf="@id/tvAttendeeName"
+            app:layout_constraintTop_toBottomOf="@+id/tvAttendeeName"
+            tools:text="7383987959" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvReportedBy"
+            style="@style/Poppins14Regular"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/sub_title_text_color"
+            app:layout_constraintEnd_toEndOf="@id/tvAttendeeName"
+            app:layout_constraintStart_toStartOf="@id/tvAttendeeName"
+            app:layout_constraintTop_toBottomOf="@+id/tvAttendeeMobileNumber"
+            tools:text="Reported by : Manan Dewani" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clMember"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_8"
+    android:background="@drawable/shape_5_rounded_color_grey_1_bordered_box"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingHorizontal="@dimen/dp_8"
+    android:paddingVertical="@dimen/dp_4">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUserFirstNameLatter"
+        style="@style/Poppins22Bold"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/selector_user"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:enabled="false"
+        tools:text="M" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUserFullName"
+        style="@style/Poppins20Regular"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvUserFirstNameLatter"
+        app:layout_constraintTop_toTopOf="@id/tvUserFirstNameLatter"
+        tools:enabled="false"
+        tools:text="Milan Vadhel" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAssignedNotAssignedLabel"
+        style="@style/Poppins16Regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_assign_not_assign"
+        android:paddingHorizontal="@dimen/dp_8"
+        android:paddingVertical="@dimen/dp_2"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUserFullName"
+        tools:enabled="false"
+        tools:text="Assigned" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

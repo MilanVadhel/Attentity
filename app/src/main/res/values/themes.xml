@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GKM" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:textCursorDrawable">@drawable/shape_cursor</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/color_primary</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_splash</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="BasePoppinsBlack">
+        <item name="android:fontFamily">@font/poppins_black</item>
+    </style>
+
+    <style name="BasePoppinsBold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="BasePoppinsExtraBold">
+        <item name="android:fontFamily">@font/poppins_extrabold</item>
+    </style>
+
+    <style name="BasePoppinsExtraLight">
+        <item name="android:fontFamily">@font/poppins_extralight</item>
+    </style>
+
+    <style name="BasePoppinsLight">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="BasePoppinsMedium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="BasePoppinsRegular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="BasePoppinsSemiBold">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="BasePoppinsThin">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+    </style>
+
+    <!--PoppinsRegular-->
+
+    <style name="Poppins12Regular" parent="BasePoppinsRegular">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Poppins14Regular" parent="BasePoppinsRegular">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <!--PoppinsBold-->
+
+    <style name="Poppins12Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Poppins14Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="Poppins16Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="Poppins18Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="Poppins16Regular" parent="BasePoppinsRegular">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="Poppins20Regular" parent="BasePoppinsRegular">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="Poppins20Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="Poppins22Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Poppins26Bold" parent="BasePoppinsBold">
+        <item name="android:textSize">@dimen/sp_26</item>
+    </style>
+
+    <style name="BaseEditText" parent="Poppins12Regular">
+        <item name="android:background">@drawable/selector_edittext</item>
+        <item name="android:paddingStart">@dimen/dp_18</item>
+        <item name="android:paddingEnd">@dimen/dp_38</item>
+        <item name="android:paddingTop">@dimen/dp_13</item>
+        <item name="android:drawablePadding">@dimen/dp_12</item>
+        <item name="android:paddingBottom">@dimen/dp_13</item>
+        <item name="hintTextColor">@color/hint_color</item>
+        <item name="android:textColor">@color/hint_color</item>
+    </style>
+
+    <style name="BaseButton" parent="Poppins14Bold">
+        <item name="android:background">@drawable/shape_5_rounded_color_primary_solid_box</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:padding">@dimen/dp_16</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Header text style -->
+    <style name="HeaderTextStyle">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/grey_222</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="BaseRadioButton" parent="Poppins12Bold">
+        <item name="android:textColor">@color/sub_title_text_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:buttonTint">@color/sub_title_text_color</item>
+    </style>
+
+    <style name="BaseCheckBox" parent="Poppins12Bold">
+        <item name="android:textColor">@color/sub_title_text_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:buttonTint">@color/sub_title_text_color</item>
+    </style>
+
+    <style name="HeaderTextStyle.Bold" parent="HeaderTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--Tab Style-->
+    <style name="BaseTabStyle">
+        <item name="tabTextColor">@color/grey</item>
+        <item name="tabTextAppearance">@style/Poppins18Bold</item>
+        <item name="tabSelectedTextColor">@color/color_primary_variant</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>

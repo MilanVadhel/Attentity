@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_attendance.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_call.xml" value="0.316" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_call_focused.xml" value="0.316" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_dropdown_focused.xml" value="0.273" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_eye.xml" value="0.292" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_eye_inactive.xml" value="0.292" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.286" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_logo.xml" value="0.286" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_no_internet.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_password.xml" value="0.292" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_password_focused.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_password_unfocused.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_report.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_sign_out.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_splash.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_user.xml" value="0.292" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_user_focused.xml" value="0.3445" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/ic_user_unfocused.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_assign_not_assign.xml" value="0.295" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_contact_icon.xml" value="0.286" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_dropdown_icon.xml" value="0.273" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_edittext.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_email_icon.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_password_icon.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_user.xml" value="0.2945" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/selector_user_icon.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_50_rounded_color_primary.xml" value="0.2945" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_50_rounded_color_primary_solid_box.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_5_rounded_color_green_solid_box.xml" value="0.295" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_5_rounded_color_grey_1_bordered_box.xml" value="0.2945" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_5_rounded_color_grey_light_1_bordered_box.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_5_rounded_color_primary_1_bordered_box.xml" value="0.2945" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_5_rounded_color_primary_solid_box.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_5_rounded_color_red_solid_box.xml" value="0.295" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_cursor.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_rounded_15_bordered_box.xml" value="0.1565" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_rounded_5_bordered_box.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_rounded_5_color_primary_bordered_box.xml" value="0.2935" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/shape_rounded_rectangle_light_red_bordered_box_15_1.xml" value="0.356" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/drawable/vd_back_arrow.xml" value="0.2745" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout-v23/item_user.xml" value="0.3546875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/activity_admin.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/activity_lrf.xml" value="0.3546875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/activity_no_internet.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/activity_splash.xml" value="0.3546875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/bottom_sheet_item.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/custom_toolbar.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/dialog_progress.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_add_member.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_admin_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_admin_landing.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_attendance.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_landing.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_members.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_profile.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_report.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_users.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_users_list.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/item_attendee.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/item_option.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/item_report.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/item_user.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/layout/users_bottom_sheet_layout.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.286" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/GKM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.286" />
+        <entry key="..\:/Users/ADMIN/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/ADMIN/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2911500641299701" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

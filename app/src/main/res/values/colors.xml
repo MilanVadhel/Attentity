@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#40BFFF</color>
+    <color name="color_primary_variant">#223263</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_primary_off">#5040BFFF</color>
+
+    <color name="grey_111">#111</color>
+    <color name="grey_222">#222</color>
+    <color name="grey">#9098B1</color>
+    <color name="grey_light">#EBF0FF</color>
+    <color name="red_67CD4659">#67CD4659</color>
+    <color name="appRd">#EB4F61</color>
+    <color name="appGreen">#337A36</color>
+
+    <color name="title_text_color">@color/color_primary_variant</color>
+    <color name="sub_title_text_color">@color/grey</color>
+    <color name="border_color">@color/grey_light</color>
+    <color name="hint_color">@color/grey</color>
+
+    <color name="icon_focused_color">@color/color_primary</color>
+    <color name="icon_un_focused_color">@color/grey</color>
+
+    <color name="button_text_color">@color/white</color>
+</resources>

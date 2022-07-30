@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_admin"
+    app:startDestination="@id/adminLandingFragment">
+
+    <fragment
+        android:id="@+id/adminLandingFragment"
+        android:name="com.smvs.gkm.ui.admin.landing.AdminLandingFragment"
+        android:label="fragment_admin_landing"
+        tools:layout="@layout/fragment_admin_landing">
+        <action
+            android:id="@+id/action_adminLandingFragment_to_addMemberFragment"
+            app:destination="@id/addMemberFragment" />
+        <action
+            android:id="@+id/action_adminLandingFragment_to_usersListFragment2"
+            app:destination="@id/usersListFragment" />
+        <action
+            android:id="@+id/action_adminLandingFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.smvs.gkm.ui.admin.dashboard.AdminDashboardFragment"
+        android:label="fragment_users_list"
+        tools:layout="@layout/fragment_admin_dashboard">
+        <action
+            android:id="@+id/action_usersListFragment_to_addMemberFragment"
+            app:destination="@id/addMemberFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addMemberFragment"
+        android:name="com.smvs.gkm.ui.admin.addmember.AddMemberFragment"
+        android:label="fragment_add_member"
+        tools:layout="@layout/fragment_add_member">
+        <argument
+            android:name="userInfo"
+            android:defaultValue="@null"
+            app:argType="com.smvs.gkm.data.auth.entity.UserDetails"
+            app:nullable="true" />
+        <argument
+            android:name="isForUpdate"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.smvs.gkm.ui.main.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
